@@ -9,7 +9,4 @@ export const typeOrmConfig: TypeOrmModuleOptions = {
   database: 'd6aql6t7nf8sf0',
   entities: [__dirname + '/../**/*.entity.{ts,js}'],
   synchronize: true,
-  extra: {
-    ssl: true,
-  },
 };
