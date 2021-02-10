@@ -19,6 +19,7 @@ import { typeOrmConfig } from './config/typeorm.config';
       extra: {
         ssl: true,
       },
+      logging: true,
     }),
   ],
   controllers: [AppController],
