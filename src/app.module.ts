@@ -15,7 +15,6 @@ import { typeOrmConfig } from './config/typeorm.config';
         '01af17f2175f07e74a4f9cbe18599e1566b855f90f13f640b587676e07f380d9',
       database: 'd6aql6t7nf8sf0',
       entities: [__dirname + '/../**/*.entity.{ts,js}'],
-      synchronize: true,
       extra: {
         ssl: true,
       },
