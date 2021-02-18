@@ -12,7 +12,6 @@ const db = config.get('db');
       url: db,
       entities: ['dist/models/**/*.js'],
       synchronize: true,
-      ssl: true,
       migrations: ['dist/src/database/migrations/*.js'],
       cli: {
         migrationsDir: 'src/database/migrations',
