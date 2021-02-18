@@ -1,0 +1,16 @@
+{
+  "db": "DATABASE_URL",
+  "jwtSecret": "JWT_SECRET",
+  "sendGridKey": "SENDGRID_KEY",
+  "adminUILink": "ADMIN_UI_LINK",
+  "customerUILink": "CUSTOMER_UI_LINK",
+  "projectUrl": "PROJECT_URL",
+  "awsAccessKey": "AWS_ACCESS_KEY",
+  "awsSecretKey": "AWS_SECRET_KEY",
+  "googleClientID": "GOOGLE_CLIENT_ID",
+  "googleSecretKey": "GOOGLE_SECRET_KEY",
+  "facebookAppID": "FACEBOOK_APP_ID",
+  "facebookSecretKey": "FACEBOOK_SECRET_KEY",
+  "environment": "NODE_ENV",
+  "stripeSecretKey": "STRIPE_SECRET_KEY"
+}
