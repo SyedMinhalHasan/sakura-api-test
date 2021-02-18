@@ -1,5 +1,5 @@
 {
-  "db": "postgresql://<username>:<password>@localhost:5432/<db>",
+  "db": "postgres://nuzaodunwpucih:c9c33b08b78cabbae97d6f9e8b393a49b5d53fcc5d5324cd09b139e8c7236190@ec2-54-243-67-199.compute-1.amazonaws.com:5432/dfhn7tsgt88fke",
   "jwtSecret": "JWT_SECRET",
   "sendGridKey": "SENDGRID_KEY",
   "adminUILink": "ADMIN_UI_LINK",
