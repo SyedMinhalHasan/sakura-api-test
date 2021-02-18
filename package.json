@@ -4,6 +4,9 @@
   "description": "",
   "author": "",
   "license": "MIT",
+  "_moduleAliases": {
+    "~": "dist"
+  },
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
@@ -32,24 +35,14 @@
     "config": "^3.3.3",
     "git": "^0.1.5",
     "git-cli": "^0.11.0",
-    "jsonwebtoken": "^8.5.1",
-    "jwt-decode": "^3.0.0",
-    "lodash": "^4.17.15",
-    "moment": "^2.24.0",
     "mysql": "^2.14.1",
     "nest-schedule": "^0.6.4",
     "nestjs-cron": "^1.1.2",
-    "nexmo": "^2.5.2",
-    "nodemailer": "^6.4.2",
     "nodemon": "^2.0.2",
     "pg": "^7.3.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.0",
-    "rxjs": "^6.5.3",
-    "speakeasy": "^2.0.0",
-    "twilio": "^3.42.2",
-    "typeorm": "0.2.22",
-    "xero-node": "^4.5.1"
+    "typeorm": "0.2.25"
   },
   "devDependencies": {
     "@nestjs/cli": "^6.9.0",
