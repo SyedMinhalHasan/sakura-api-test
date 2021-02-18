@@ -6,7 +6,18 @@ import { AppService } from '../../services/app';
 
 const db = config.get('db');
 @Module({
-  imports: [],
+  imports: [
+    TypeOrmModule.forRoot({
+      type: 'postgres',
+      url: db,
+      entities: ['dist/models/**/*.js'],
+      synchronize: true,
+      migrations: ['dist/src/database/migrations/*.js'],
+      cli: {
+        migrationsDir: 'src/database/migrations',
+      },
+    }),
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
